@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:one42/widgets/navigation_bar/navigation_bar.dart';
 
 
 
@@ -9,8 +10,11 @@ class HomeView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: child,
+    return Scaffold(
+      backgroundColor: Colors.white,
+      body: Column(children: <Widget>[
+        NavigationBar()
+      ]),
     );
   }
 }
