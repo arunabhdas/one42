@@ -39,7 +39,9 @@ Doctor summary (to see all details, run flutter doctor -v):
 
 ==> flutter create one42
 
-~~~
+==> cd one42 && flutter run -d chrome
+
+~~~ 
 
 
 
