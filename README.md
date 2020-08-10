@@ -4,6 +4,7 @@
 
 ## Steps
 
+~~~
 ==> flutter doctor
   ╔════════════════════════════════════════════════════════════════════════════╗
   ║ A new version of Flutter is available!                                     ║
@@ -24,3 +25,21 @@ Doctor summary (to see all details, run flutter doctor -v):
 [✓] Connected device (2 available)
 
 ! Doctor found issues in 2 categories.
+~~~
+
+
+~~~
+==> flutter channel beta
+
+==> flutter upgrade
+
+==> flutter config --enable-web
+
+==> mkdir one42-web && cd one42-web
+
+==> flutter create one42
+
+~~~
+
+
+
