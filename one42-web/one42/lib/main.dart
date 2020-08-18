@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
 
         primarySwatch: Colors.blue,
+        textTheme: Theme.of(context).textTheme.apply(fontFamily: 'Open Sans'),
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: HomeView()
