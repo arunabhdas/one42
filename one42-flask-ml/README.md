@@ -17,4 +17,6 @@ Python 3.8.5
 
 ==> source venv/bin/activate
 
+pip install Flask
+
 ~~~
